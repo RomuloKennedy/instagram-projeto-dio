@@ -1,0 +1,116 @@
+*{
+    text-decoration: none; /* retiramos toda formatação dos hiperlinks */
+    font-family: sans-serif; /* fonte padrão = sans-serif */
+    font-size:14px; /* tamanho da font = 14px */
+}
+body{
+    display:flex; /* transformamos o corpo da página em flex-box */
+    justify-content: center;
+    background-color:rgb(243,243,243);
+}
+.pagina-instagram{
+    display:flex; 
+    align-items: center;
+}
+.box0{
+    display: flex;
+    flex-direction: column;   /* botamos todo o conteiner em forma de coluna*/
+}
+.box1{
+    display:flex;
+    align-items: center;
+    background-color: #fff;
+    padding:2.5rem;
+    width:25rem;
+    border:1px solid lightgrey;
+    flex-direction: column;
+    margin-bottom:8px;
+    margin-top:10rem;
+}
+.box2{
+    text-align: center;
+    background-color: #fff;
+    border:1px solid lightgrey;
+    flex-direction: column;
+}
+.box3{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.celular-instagram{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.celular-instagram img{
+    height: 45rem;
+    padding-top:8rem;
+}
+.foto-perfil{
+    
+    border-radius: 50%;
+    justify-content: center;
+    height:7rem;
+    padding-bottom:15px;
+   
+}
+.continue{
+    border-radius: 5px;
+    color:rgb(243,243 , 243);
+    text-align: center;
+    background-color:#0095f6;
+    width: 50%;
+    padding:8px 8px 8px 8px;    
+}
+.remover{
+    border-radius: 5px;
+    text-align: center;
+    color:grey;
+    width: 50%;
+    padding: 8px 8px ;
+}
+.nao-e:nth-child(1){
+    color:grey;
+    font-size:14px;
+}
+.link-blue{
+    color:#0095f6;
+}
+
+.baixar-app1 img{
+    width:10rem;
+    padding-right: 55px;
+}
+.baixar-app2 img{
+    width:10rem;
+}
+.logo{
+    width:45%;
+    margin-bottom:13px;
+    
+}
+@media (max-width:1024px){
+    .pagina-instagram{
+        width:70%;
+    }
+}
+
+@media(max-width:650px){
+    .body{
+        background-color: #ffffff;
+        
+    }
+    .pagina-instagram{
+        align-items: center;
+        width: 105%;
+    }
+
+    .celular-instagram{
+        display: none;
+    }
+   
+
+}
